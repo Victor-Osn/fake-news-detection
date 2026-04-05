@@ -34,6 +34,19 @@ This project demonstrates a fake news detection workflow using a small labeled d
 
 Completed machine learning project foundation with prediction workflow and reusable prediction function.
 
+## Web App
+
+This project also includes a Streamlit web interface inside the app folder. Users can enter a news statement and get a prediction showing whether the text is likely REAL or FAKE.
+
+## How to Run
+
+# Streamlit App
+
+1. Open terminal in the project folder
+2. Run py -m pip install -r requirements.txt
+3. Run py -m streamlit run app/app.py
+4. Open the local Streamlit URL in the browser
+
 ## Future Improvements
 
 - Use a larger real-world dataset
